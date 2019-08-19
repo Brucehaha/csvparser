@@ -51,8 +51,8 @@ core code to parse file
 - This broker program will be easily coupled with GUI or Web application.
 - By default, the input encoding is 'windows-1252', this program could be improved by using package 'chardet' to get the confident level of encoding type.
 - If you failed to parse a file or get an error in log, try replace 'OPEN_ERROR="strict' to 'OPEN_ERROR="replace' instead
-- This program is not form very large file, could be improved by adding reading with specific chunk size, and writing to several splited files from one input file
-- could be improved the parsing speed by multi-processing or multi-threading.
+- This program is not for very large file, could be improved by adding reading with specific chunk size, and writing to several splited files from one input file
+- could be improved the parsing speed by multi-processing or multi-threading, although python's GIL is a pain for multi-core processing.
 
  
 
