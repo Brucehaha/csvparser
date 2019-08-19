@@ -1,0 +1,7 @@
+2019-08-18 23:38:29,820  - ERROR :  file is not windows-1252
+2019-08-18 23:40:06,057  - ERROR :  file is not windows-1252
+2019-08-19 02:01:45,439  - ERROR :  'str' object has no attribute 'spec_dict'
+2019-08-19 02:16:08,819  - ERROR :  'str' object has no attribute 'spec_dict'
+2019-08-19 02:19:08,737  - ERROR :  'str' object has no attribute 'spec_dict'
+2019-08-19 02:20:01,148  - ERROR :  'str' object has no attribute 'spec_dict'
+

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  csvparser:
+    build: .
+    volumes:
+      - .:/app
+    command: >
+      sh -c "python -u test/parsetocsv_test.py
+             python -u bin/run.py"
+    environment:
+      PYTHONUNBUFFERED: 1
+    stdin_open: true
+    tty: true
