@@ -43,6 +43,7 @@ core code to parse file
 - if you want change the spec.json, jut put the new one in 'fixed-with' and change the name in config/settings.py
 - find all the result files in 'files/output'.
 - if files are not found. Please check the log in 'log' folder.
+- any error, you may find in log folder.
 
 ### Further Improvement
 - This project is just a broker to parse file on backend.
