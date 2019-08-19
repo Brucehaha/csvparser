@@ -47,7 +47,7 @@ core code to parse file
 
 ### Further Improvement
 - This project is just a broker to parse file on backend.
-- This project does not specify the automatical way to input a file, like using a user interface(GUI), Web form upload and download interface, or pass parameters by sys.argv
+- This project does not specify the automatic way to input a file, like using a user interface(GUI), Web form upload and download interface, or pass parameters by sys.argv
 - This broker program will be easily coupled with GUI or Web application.
 - By default, the input encoding is 'windows-1252', this program could be improved by using package 'chardet' to get the confident level of encoding type.
 - If you failed to parse a file or get an error in log, try replace 'OPEN_ERROR="strict' to 'OPEN_ERROR="replace' instead
